@@ -2,6 +2,7 @@
 
 ## Mapstruct
 - Q: mapstruct is not working on all fields
+
   A: It happens when mapstruct used along with lombok. Solution is to make sure we have `lombok` annotationProcessor should come first and then `mapstruct`. It looks silly, but it works.
 
   ```
